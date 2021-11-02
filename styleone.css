@@ -57,9 +57,13 @@ p:hover
     margin: 0px;
     border-radius: 5px;
 }
+section
+{
+    padding: 0px 2px;
+}
 article
 {
-    min-width: 300px;
+    min-width: 280px;
     max-width: 448px;
     height: 500px;
     background-color: white;
