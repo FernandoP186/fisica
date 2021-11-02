@@ -14,14 +14,18 @@ header > h1
 }
 header > menu
 {
+    display: block;
     font-size: 11px;
     padding: 0px 0px;
     margin: 25px 0px;
-    
+    min-width: 300px;
+    max-width: 480px;
 }
 header
 {
-    width: 450px;
+    height: 100px;
+    min-width: 300px;
+    max-width: 448px;
     margin: auto;
     padding:  10px;
 
@@ -30,10 +34,11 @@ p
 {
     display: inline-block;
     color: rgb(255, 255, 255);
-    width: 70px;
+    min-width: 70px;
+    max-width: 100px;
     height: 10px;
     padding: 6px 6px;
-    margin: -2px;
+    margin: 2px -2px;
     text-align: center;
     border-radius: 5px;
 }
@@ -61,8 +66,29 @@ article
     text-align: justify;
     padding: 10px;
     margin: auto;
+    border-radius: 10px;
+    border:solid black;
 }
 .secundary
 {
     display: none;
+}
+footer
+{
+    min-width: 300px;
+    max-width: 448px;
+    margin: auto;
+    padding: 20px 0px;
+}
+a
+{
+    color: white;
+}
+#nome
+{
+
+    display: block;
+    text-align: right;
+    min-width: 300px;
+    max-width: 448px;
 }
