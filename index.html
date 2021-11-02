@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experimento nuvem na garrafa</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
 </head>
 <body>
     <header>
@@ -13,16 +13,33 @@
         <h1>Experimento fumaça na garrafa</h1>
         <menu>
 
-            <a id="selected" href="">Objetivo</a>
-            <a href="">Material/metodo</a>
-            <a href="">Resultado esperado</a>
-            <a href="">Referencias</a>
-
+            <p id="selected" onclick="work(1)">Objetivo</p>
+            <p id="2" onclick="work(2)">Material/metodo</p>
+            <p id="3" onclick="work(3)">Resultado </p>
+            <p id="4" onclick="work(4)">Referencias</p>
+            
         </menu>
 
     </header>
     <section>
-        <article>
+        <article id="objetivo">
+            O seguinte trabalho possui como objetivo a apresentar o conceito de gás ideal e o comportamento de um gás real, utilizando recursos simples
+        </article>
+        <article id="material" class="secundary">
+            Vai ser utilizado uma garrafa pet 2 L, rolha, 100 ml de álcool 70%  e uma bomba de ar manual, 15 a 25 ml do líquido vai ser adicionado na garrafa que logo em seguida será vedada pela rolha, uma vez fechada, o conjunto será agitado até que a maior parte do líquido esteja no estado gasoso e então a rolha será perfurada, abrindo caminho para injeção de ar pela bomba manual, e enfim haverá a remoção da rolha.
+        </article>
+
+        <article id="resultado" class="secundary">
+            Espera-se que a mudança brusca de temperatura e pressão causada pela retirada da rolha cause a condensação do gás, causando uma fumaça.
+        </article>
+
+        <article id="referencia" class="secundary">
+
+            <ul>
+                <li><a href="https://m.youtube.com/watch?v=kCHOe5cEaAw" target="_blank" rel="external">youtube</a></li>
+                <li><a href="https://m.brasilescola.uol.com.br/amp/fisica/gas-ideal.htm" target="_blank" rel="external">brasilescola</a></li>
+                <li><a href="https://pt.m.wikipedia.org/wiki/G %C3%A1s_ideal" target="_blank" rel="external">wiki</a></li>
+            </ul>
 
         </article>
     </section>
@@ -30,5 +47,63 @@
 
     </footer>
 
+<script>
+    function work(x)
+    {
+        if (x == 1)
+        {
+            document.getElementById('objetivo').style.display = 'block'
+            document.getElementById('material').style.display = 'none'
+            document.getElementById('resultado').style.display = 'none'
+            document.getElementById('referencia').style.display = 'none'
+            
+            document.getElementById('selected').style.backgroundColor = 'black'
+            document.getElementById('2').style.backgroundColor = 'rgb(132, 132, 235)'
+            document.getElementById('3').style.backgroundColor = 'rgb(132, 132, 235)'
+            document.getElementById('4').style.backgroundColor = 'rgb(132, 132, 235)'
+
+        }
+        else if (x == 2)
+        {
+            document.getElementById('objetivo').style.display = 'none'
+            document.getElementById('material').style.display = 'block'
+            document.getElementById('resultado').style.display = 'none'
+            document.getElementById('referencia').style.display = 'none'
+
+            document.getElementById('selected').style.backgroundColor = 'rgb(132, 132, 235)'
+            document.getElementById('2').style.backgroundColor = 'black'
+            document.getElementById('3').style.backgroundColor = 'rgb(132, 132, 235)'
+            document.getElementById('4').style.backgroundColor = 'rgb(132, 132, 235)'
+        }
+        else if (x == 3)
+        {
+            document.getElementById('objetivo').style.display = 'none'
+            document.getElementById('material').style.display = 'none'
+            document.getElementById('resultado').style.display = 'block'
+            document.getElementById('referencia').style.display = 'none'
+
+            document.getElementById('selected').style.backgroundColor = 'rgb(132, 132, 235)'
+            document.getElementById('2').style.backgroundColor = 'rgb(132, 132, 235)'
+            document.getElementById('3').style.backgroundColor = 'black'
+            document.getElementById('4').style.backgroundColor = 'rgb(132, 132, 235)'
+        }
+        else if (x == 4)
+        {
+            document.getElementById('objetivo').style.display = 'none'
+            document.getElementById('material').style.display = 'none'
+            document.getElementById('resultado').style.display = 'none'
+            document.getElementById('referencia').style.display = 'block'
+
+            document.getElementById('selected').style.backgroundColor = 'rgb(132, 132, 235)'
+            document.getElementById('2').style.backgroundColor = 'rgb(132, 132, 235)'
+            document.getElementById('3').style.backgroundColor = 'rgb(132, 132, 235)'
+            document.getElementById('4').style.backgroundColor = 'black'
+        }
+    }
+    function fix()
+    {
+        document.getElementById('selected').style.display = 'block'
+    }
+</script>
 </body>
 </html>
