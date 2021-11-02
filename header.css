@@ -2,7 +2,7 @@
 
 body
 {
-    background-color: rgb(132, 132, 235);
+    background-image: linear-gradient( 90deg, rgb(132, 132, 235), black);
     font-family: 'Times New Roman', Times, serif;
 }
 header > h1
