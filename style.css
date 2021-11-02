@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body
+{
+    background-color: rgb(132, 132, 235);
+    font-family: 'Times New Roman', Times, serif;
+}
+header > h1
+{
+    font-size: 21px;
+    padding: 0px;
+    margin: 2px 0px;
+    color: white;
+}
+header > menu
+{
+    font-size: 11px;
+    padding: 0px 0px;
+    margin: 25px 0px;
+    
+}
+header
+{
+    min-width: 430px;
+    margin: 0px;
+    padding:  10px;
+}
+a
+{
+    color: rgb(255, 255, 255);
+    width: 20px;
+    padding: 6px 6px;
+    margin: -2px;
+    text-align: center;
+}
+a:hover
+{
+    background-color:  rgb(72, 72, 123);
+    color: white;
+    border-radius: 5px;
+}
+#selected
+{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    border-radius: 5px;
+}
