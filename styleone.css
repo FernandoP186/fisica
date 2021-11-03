@@ -4,9 +4,9 @@
 {
     --col: linear-gradient( 90deg, rgb(132, 132, 235), black);
     --hei: 100px;
-    --mini: 300px;
+    --mini: 270px;
     --maxi: 100%;
-    --pad: 20px 10px;
+    --pad: 29px 10px;
 }
 
 /*back of structure*/
@@ -16,7 +16,7 @@
         height: var(--hei);
         min-width: var(--mini);
         max-width: var(--maxi);
-        margin: 10px auto 5px auto;
+        margin: 0px auto 5px auto;
         padding: var(--pad);
         text-align: center;
         box-shadow: 8px 0px 20px -12px black;
@@ -37,7 +37,7 @@
     }
     body
     {
-        
+        min-width: none;
         font-family: 'Times New Roman', Times, serif;
         margin: 0px;
         height: 100px;
@@ -60,7 +60,7 @@
         font-size: 11px;
         padding: 0px 0px;
         margin: 0px 0px;
-        min-width: 300px;
+        min-width: none;
         height: 30px;
         
     }
@@ -99,22 +99,23 @@
     }
     section
     {
-        padding: 5px 2px;
+        padding: 5px 10px;
         background-image: linear-gradient( 90deg, rgb(147, 147, 245), black);
         margin: 5px 0px;
+        min-width: none;
         
         
         
     }
     article
     {
-        min-width: 280px;
+        min-width: var(--mini);
         max-width: 448px;
         height: 500px;
         background-color: white;
         font-size: 11px;
         text-align: justify;
-        padding: 10px;
+        padding: 2px 6px;
         margin: 5px auto;
         border-radius: 4px;
         box-shadow: -6px 5px 15px -4px black;
@@ -131,13 +132,13 @@
 
         display: block;
         text-align: right;
-        min-width: 300px;
+        min-width: none;
         max-width: 448px;
         color: white;
     }
     .right
     {
-        min-width: 300px;
+        min-width: none;
         max-width: 448px;
         margin: auto;
 
