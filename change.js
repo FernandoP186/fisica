@@ -8,7 +8,7 @@ function work(x)
             document.getElementById('referencia').style.display = 'none'
             document.getElementById('gas').style.display = 'none'
             
-            document.getElementById('selected').style.backgroundColor = 'black'
+            document.getElementById('1').style.backgroundColor = 'black'
             document.getElementById('2').style.backgroundColor = 'rgba(255, 255, 255, 0)'
             document.getElementById('3').style.backgroundColor = 'rgba(255, 255, 255, 0)'
             document.getElementById('4').style.backgroundColor = 'rgba(255, 255, 255, 0)'
@@ -23,7 +23,7 @@ function work(x)
             document.getElementById('referencia').style.display = 'none'
             document.getElementById('gas').style.display = 'none'
 
-            document.getElementById('selected').style.backgroundColor = 'rgba(255, 255, 255, 0)'
+            document.getElementById('1').style.backgroundColor = 'rgba(255, 255, 255, 0)'
             document.getElementById('2').style.backgroundColor = 'black'
             document.getElementById('3').style.backgroundColor = 'rgba(255, 255, 255, 0)'
             document.getElementById('4').style.backgroundColor = 'rgba(255, 255, 255, 0)'
@@ -37,7 +37,7 @@ function work(x)
             document.getElementById('referencia').style.display = 'none'
             document.getElementById('gas').style.display = 'none'
 
-            document.getElementById('selected').style.backgroundColor = 'rgba(255, 255, 255, 0)'
+            document.getElementById('1').style.backgroundColor = 'rgba(255, 255, 255, 0)'
             document.getElementById('2').style.backgroundColor = 'rgba(255, 255, 255, 0)'
             document.getElementById('3').style.backgroundColor = 'black'
             document.getElementById('4').style.backgroundColor = 'rgba(255, 255, 255, 0)'
@@ -51,7 +51,7 @@ function work(x)
             document.getElementById('referencia').style.display = 'block'
             document.getElementById('gas').style.display = 'none'
 
-            document.getElementById('selected').style.backgroundColor = 'rgba(255, 255, 255, 0)'
+            document.getElementById('1').style.backgroundColor = 'rgba(255, 255, 255, 0)'
             document.getElementById('2').style.backgroundColor = 'rgba(255, 255, 255, 0)'
             document.getElementById('3').style.backgroundColor = 'rgba(255, 255, 255, 0)'
             document.getElementById('4').style.backgroundColor = 'black'
@@ -65,7 +65,7 @@ function work(x)
             document.getElementById('referencia').style.display = 'none'
             document.getElementById('gas').style.display = 'block'
 
-            document.getElementById('selected').style.backgroundColor = 'rgba(255, 255, 255, 0)'
+            document.getElementById('1').style.backgroundColor = 'rgba(255, 255, 255, 0)'
             document.getElementById('2').style.backgroundColor = 'rgba(255, 255, 255, 0)'
             document.getElementById('3').style.backgroundColor = 'rgba(255, 255, 255, 0)'
             document.getElementById('4').style.backgroundColor = 'rgba(255, 255, 255, 0)'
