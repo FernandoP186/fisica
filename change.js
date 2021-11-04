@@ -17,18 +17,20 @@ function work(x)
             {
                 document.getElementById(obj_id[num]).style.backgroundColor = c_color
             }
+            break
         }
         
-        for (var num = 0; num != 6; num++)
+        for (var nem = 0; nem != 6; nem++)
         {
-            if (num == x)
+            if (nem == x)
             {
-                document.getElementById(art_id[num]).style.display = 'block'
+                document.getElementById(art_id[nem]).style.display = 'block'
             }
             else
             {
-                document.getElementById(art_id[num]).style.display = 'none'
+                document.getElementById(art_id[nem]).style.display = 'none'
             }
+            
         }
     }
     
