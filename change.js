@@ -1,78 +1,143 @@
 function work(x)
     {
-        if (x == 1)
+        var art_id = ['objetivo', 'material', 'resultado', 'referencia', 'gas']
+        var obj_id = ['fir','sec','thi','fou','fiv']
+        var c_color = 'rgba(255, 255, 255, 0)'
+        
+        if (x == 0)
         {
-            document.getElementById('objetivo').style.display = 'block'
-            document.getElementById('material').style.display = 'none'
-            document.getElementById('resultado').style.display = 'none'
-            document.getElementById('referencia').style.display = 'none'
-            document.getElementById('gas').style.display = 'none'
+            for (var num = 0; num != 6; num++)
+            {
+                if (num == x)
+                {
+                    document.getElementById(obj_id[num]).style.backgroundColor = 'black'
             
-            document.getElementById('1').style.backgroundColor = 'black'
-            document.getElementById('2').style.backgroundColor = 'rgba(255, 255, 255, 0)'
-            document.getElementById('3').style.backgroundColor = 'rgba(255, 255, 255, 0)'
-            document.getElementById('4').style.backgroundColor = 'rgba(255, 255, 255, 0)'
-            document.getElementById('5').style.backgroundColor = 'rgba(255, 255, 255, 0)'
+                }
+                else
+                {
+                    document.getElementById(obj_id[num]).style.backgroundColor = c_color
+                }
+            }
+            
+            for (var num = 0; num != 6; num++)
+            {
+                if (num == x)
+                {
+                    document.getElementById(art_id[num]).style.display = 'block'
+                }
+                else
+                {
+                    document.getElementById(art_id[num]).style.display = 'none'
+                }
+            }
+        }
+        else if (x == 1)
+        {
+            for (var num = 0; num != 6; num++)
+            {
+                if (num == x)
+                {
+                    document.getElementById(obj_id[num]).style.backgroundColor = 'black'
+            
+                }
+                else
+                {
+                    document.getElementById(obj_id[num]).style.backgroundColor = c_color
+                }
+            }
+            
+            for (var num = 0; num != 6; num++)
+            {
+                if (num == x)
+                {
+                    document.getElementById(art_id[num]).style.display = 'block'
+                }
+                else
+                {
+                    document.getElementById(art_id[num]).style.display = 'none'
+                }
+            }
 
         }
         else if (x == 2)
         {
-            document.getElementById('objetivo').style.display = 'none'
-            document.getElementById('material').style.display = 'block'
-            document.getElementById('resultado').style.display = 'none'
-            document.getElementById('referencia').style.display = 'none'
-            document.getElementById('gas').style.display = 'none'
-
-            document.getElementById('1').style.backgroundColor = 'rgba(255, 255, 255, 0)'
-            document.getElementById('2').style.backgroundColor = 'black'
-            document.getElementById('3').style.backgroundColor = 'rgba(255, 255, 255, 0)'
-            document.getElementById('4').style.backgroundColor = 'rgba(255, 255, 255, 0)'
-            document.getElementById('5').style.backgroundColor = 'rgba(255, 255, 255, 0)'
+            for (var num = 0; num != 6; num++)
+            {
+                if (num == x)
+                {
+                    document.getElementById(obj_id[num]).style.backgroundColor = 'black'
+            
+                }
+                else
+                {
+                    document.getElementById(obj_id[num]).style.backgroundColor = c_color
+                }
+            }
+            
+            for (var num = 0; num != 6; num++)
+            {
+                if (num == x)
+                {
+                    document.getElementById(art_id[num]).style.display = 'block'
+                }
+                else
+                {
+                    document.getElementById(art_id[num]).style.display = 'none'
+                }
+            }
         }
         else if (x == 3)
         {
-            document.getElementById('objetivo').style.display = 'none'
-            document.getElementById('material').style.display = 'none'
-            document.getElementById('resultado').style.display = 'block'
-            document.getElementById('referencia').style.display = 'none'
-            document.getElementById('gas').style.display = 'none'
+            for (var num = 0; num != 6; num++)
+            {
+                if (num == x)
+                {
+                    document.getElementById(obj_id[num]).style.backgroundColor = 'black'
+            
+                }
+                else
+                {
+                    document.getElementById(obj_id[num]).style.backgroundColor = c_color
+                }
+            }
+            
+            for (var num = 0; num != 6; num++)
+            {
+                if (num == x)
+                {
+                    document.getElementById(art_id[num]).style.display = 'block'
+                }
+                else
+                {
+                    document.getElementById(art_id[num]).style.display = 'none'
+                }
+            }
 
-            document.getElementById('1').style.backgroundColor = 'rgba(255, 255, 255, 0)'
-            document.getElementById('2').style.backgroundColor = 'rgba(255, 255, 255, 0)'
-            document.getElementById('3').style.backgroundColor = 'black'
-            document.getElementById('4').style.backgroundColor = 'rgba(255, 255, 255, 0)'
-            document.getElementById('5').style.backgroundColor = 'rgba(255, 255, 255, 0)'
         }
         else if (x == 4)
         {
-            document.getElementById('objetivo').style.display = 'none'
-            document.getElementById('material').style.display = 'none'
-            document.getElementById('resultado').style.display = 'none'
-            document.getElementById('referencia').style.display = 'block'
-            document.getElementById('gas').style.display = 'none'
-
-            document.getElementById('1').style.backgroundColor = 'rgba(255, 255, 255, 0)'
-            document.getElementById('2').style.backgroundColor = 'rgba(255, 255, 255, 0)'
-            document.getElementById('3').style.backgroundColor = 'rgba(255, 255, 255, 0)'
-            document.getElementById('4').style.backgroundColor = 'black'
-            document.getElementById('5').style.backgroundColor = 'rgba(255, 255, 255, 0)'
+            for (var num = 0; num != 6; num++)
+            {
+                if (num == x)
+                {
+                    document.getElementById(obj_id[num]).style.backgroundColor = 'black'
+            
+                }
+                else
+                {
+                    document.getElementById(obj_id[num]).style.backgroundColor = c_color
+                }
+            }
+            for (var num = 0; num != 6; num++)
+            {
+                if (num == x)
+                {
+                    document.getElementById(art_id[num]).style.display = 'block'
+                }
+                else
+                {
+                    document.getElementById(art_id[num]).style.display = 'none'
+                }
+            }
         }
-        else if (x == 5)
-        {
-            document.getElementById('objetivo').style.display = 'none'
-            document.getElementById('material').style.display = 'none'
-            document.getElementById('resultado').style.display = 'none'
-            document.getElementById('referencia').style.display = 'none'
-            document.getElementById('gas').style.display = 'block'
-
-            document.getElementById('1').style.backgroundColor = 'rgba(255, 255, 255, 0)'
-            document.getElementById('2').style.backgroundColor = 'rgba(255, 255, 255, 0)'
-            document.getElementById('3').style.backgroundColor = 'rgba(255, 255, 255, 0)'
-            document.getElementById('4').style.backgroundColor = 'rgba(255, 255, 255, 0)'
-            document.getElementById('5').style.backgroundColor = 'black'
-        }
-    }
-    function fix()
-    {
-        document.getElementById('selected').style.display = 'block'
     }
