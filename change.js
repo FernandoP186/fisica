@@ -20,15 +20,15 @@ function work(x)
             break
         }
         
-        for (var nem = 0; nem != 6; nem++)
+        for (var num = 0; num != 6; num++)
         {
-            if (nem == x)
+            if (num == x)
             {
-                document.getElementById(art_id[nem]).style.display = 'block'
+                document.getElementById(art_id[num]).style.display = 'block'
             }
             else
             {
-                document.getElementById(art_id[nem]).style.display = 'none'
+                document.getElementById(art_id[num]).style.display = 'none'
             }
             
         }
